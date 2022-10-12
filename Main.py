@@ -30,8 +30,3 @@ for item in input_data.split(', '):
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
 print(quick_sort(data, 0, len(data)-1))
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
